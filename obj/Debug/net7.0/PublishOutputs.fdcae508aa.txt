@@ -1,0 +1,7 @@
+/Users/pedroforadori/www/server-correios/bin/Debug/net7.0/publish/server-correios
+/Users/pedroforadori/www/server-correios/bin/Debug/net7.0/publish/appsettings.Development.json
+/Users/pedroforadori/www/server-correios/bin/Debug/net7.0/publish/appsettings.json
+/Users/pedroforadori/www/server-correios/bin/Debug/net7.0/publish/server-correios.dll
+/Users/pedroforadori/www/server-correios/bin/Debug/net7.0/publish/server-correios.deps.json
+/Users/pedroforadori/www/server-correios/bin/Debug/net7.0/publish/server-correios.runtimeconfig.json
+/Users/pedroforadori/www/server-correios/bin/Debug/net7.0/publish/server-correios.pdb

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bXvbrrMtrBIHVtD/4nBYAFjSP9Sm1LUWxrwvByRViEg=",
+  "Source": "server-correios",
+  "BasePath": "_content/server-correios",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
