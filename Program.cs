@@ -32,7 +32,7 @@ app.MapGet("/health", () => "API ON");
 app.MapPost("/price", (string cepDestino) =>
 {
     var cepOrigem = "11310230";
-    
+
     var precoPrazoList = new CorreiosManager().CalcularPrecoPrazo(cepOrigem, cepDestino, itens);
 
     foreach (var precoPrazo in precoPrazoList)
@@ -40,7 +40,7 @@ app.MapPost("/price", (string cepDestino) =>
         listPrecoPrazo.Add(precoPrazo);
     }
 
-    return listPrecoPrazo;
+    return Results.Ok(listPrecoPrazo);
 });
 
 app.Run();
