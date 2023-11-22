@@ -24,3 +24,5 @@
 /Users/pedroforadori/www/server-correios/obj/Debug/net7.0/server-correios.pdb
 /Users/pedroforadori/www/server-correios/obj/Debug/net7.0/server-correios.genruntimeconfig.cache
 /Users/pedroforadori/www/server-correios/obj/Debug/net7.0/ref/server-correios.dll
+/Users/pedroforadori/www/server-correios/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/pedroforadori/www/server-correios/obj/Debug/net7.0/server-correios.csproj.CopyComplete

@@ -6,5 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>server_correios</RootNamespace>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
 </Project>
