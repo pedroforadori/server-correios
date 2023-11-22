@@ -29,8 +29,10 @@ List<string> listPrecoPrazo = new List<string>();
 
 app.MapGet("/health", () => "API ON");
 
-app.MapPost("/price", (string cepOrigem, string cepDestino) =>
+app.MapPost("/price", (string cepDestino) =>
 {
+    var cepOrigem = "11310230";
+    
     var precoPrazoList = new CorreiosManager().CalcularPrecoPrazo(cepOrigem, cepDestino, itens);
 
     foreach (var precoPrazo in precoPrazoList)
