@@ -25,7 +25,7 @@ var itens = new List<Item>()
     }
 };
 
-List<string> listPrecoPrazo = new List<string>();
+List<object> listPrecoPrazo = new List<object>();
 
 app.MapGet("/health", () => "API ON");
 
@@ -37,10 +37,10 @@ app.MapPost("/price", (string cepDestino) =>
 
     foreach (var precoPrazo in precoPrazoList)
     {
-        listPrecoPrazo.Add(precoPrazo);
+        listPrecoPrazo.Add( new { prazo = precoPrazo });
     }
 
-    return Results.Ok(listPrecoPrazo);
+    return listPrecoPrazo.ToList();
 });
 
 app.Run();
